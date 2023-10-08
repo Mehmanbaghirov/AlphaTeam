@@ -1,3 +1,5 @@
+![Project Logo](https://liquipedia.net/commons/images/thumb/d/d8/ALPHA_Team_allmode.png/200px-ALPHA_Team_allmode.png)
+
 # **AlphaTeam Project**
 ## **Overview**
 This project is designed for Module 1 of the Algorithmics Course.
