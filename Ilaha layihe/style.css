@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;300;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
 
 *{
     margin: 0;
@@ -8,12 +12,13 @@
     box-sizing: border-box;
 }
 
-.container{
-width: 82.3vw;
+.card3{
+    margin: 0 auto;
+    width: calc( 100% - 11.7vw);
 }
 .section4{
     display: flex;
-    max-width: 62.5vw;
+
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 17.2vw;
@@ -33,17 +38,15 @@ height: 25.97vw;
 }
 .section5{
    display: flex;
-   max-width: 70.4vw;
+
    margin-left: auto;
    margin-right: auto;
   
 }
 .header2{
-    /* max-width: 1271px;
-    margin-left: auto;
-    margin-right: auto; */
+
  display: flex;
- /* flex-direction: row; */
+
  gap: 2.56vw;
  
 }
@@ -66,8 +69,7 @@ div .child{
 background: #FFF;
 box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
 width: 27.7vw;
-/* height: auto; */
-/* width: 399px; */
+
 height: 22.7vw;
 
 }
@@ -82,7 +84,7 @@ div .child p{
     padding-left: 1.38vw;
 }
 div .heading{
-  
+    margin-top: 0.5vw;
     color: #000;
 font-family: Roboto;
 font-size: 2.08vw;
@@ -116,20 +118,29 @@ line-height: 130%;
 .header h2{
     padding-bottom: 1.38vw;
 }
+
+
+
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
-    .container{
-        width:75vw
+    
+  
+
+    .card3{
+        width:75vw;
         }
   .header ul{
-    font-size: 1.36vw;
-    width: 37.44vw;
-height: 21.13vw;
+    font-size: 1.67vw;
+    width: 46vw;
+height: 26vw;
   }
   section h2{
     font-size: 3.1vw;
     width: 37.6vw;
 height: 5.25vw;
-/* padding-left: 20px; */
+
 }
 
 .head{
@@ -137,7 +148,7 @@ height: 5.25vw;
    }
    .section5{
     display: flex;
-    max-width: 52.3vw;
+  
     margin-left: auto;
     margin-right: auto;
    
@@ -167,78 +178,94 @@ div .time2{
 font-size: 1.36vw;
 }
 .section4{
-    max-width: 46.9vw;
+   
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 13.6vw;
 }
   }
 
+
+
   @media (min-width:320px) and (max-width:767px){
-      .container{
-        width: 66.7vw
-        }
-    .header ul{
-        font-size: 1.69vw;
-        width: 38.9vw;
-        height: 22.6vw;
+
+   
+    .card3{
+      margin: 0 auto ;
+      width: calc( 100% - 18.13vw );
       }
-      section h2{
-        font-size: 3.6vw;
-        width: 40.4vw;
-        height: 5.64vw;
-    /* padding-left: 20px; */
-    }
-    .header2{
- 
-        display: flex;
-       flex-direction: column;
-    padding-top: 3.12vw;
-        gap: 3.12vw;
-        
-       }
-       .header{
-        padding-top: 1.3vw;
-    }
-    .head{
-        margin-top: 2.6vw;
-        
-       
-       }
-       .section5{
-      
-        max-width: 0;
-        margin-left: auto;
-        margin-right: auto;
-       
+      .section4{
+display: block;
+         margin-bottom: 10.4vw;
+         width: 100%;
+         height: auto;
      }
-       div .child{
-        margin-bottom: 2.9vw;
-        width: 30.2vw;
-        height: 24.7vw;
+
+  .header ul{
+      font-size: 3.2vw;
+      width: 38.9vw;
+      height: 22.6vw;
     }
-    div img{
-        width: 30.2vw;
-        height: 12vw;
-    }
-    div .heading{
-        font-size: 2.2vw;
-    
-    }
-    div .time{
-        padding-top: 2.3vw;
-    font-size: 1.8vw;
-    
-    }
-    div .time2{
-    font-size: 1.82vw;
-    }
-    .section4{
-        /* justify-content: center; */
-        max-width: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 10.4vw;
-        
-    }
+    section h2{
+        margin-bottom: 10vw;
+      font-size: 7vw;
+      width: auto;
+      height: auto;
+  /* padding-left: 20px; */
   }
+  .header2{
+
+      display: flex;
+     flex-direction: column;
+  padding-top: 3.12vw;
+      gap: 3.12vw;
+     align-items: center;
+     }
+     .header{
+      padding-top: 1.3vw;
+  }
+  .head{
+      margin-top: 2.6vw;
+      
+     
+     }
+     .section5{
+    display: block;
+      max-width: none;
+      margin-left: auto;
+      margin-right: auto;
+     
+   }
+     div .child{
+      margin-bottom: 6.44vw;
+      width: 50.2vw;
+      height: 40.7vw;
+      border-radius: 3.73vw;
+  }
+
+  div .child p{
+    font-size: 3.74vw;
+    padding-left: 2vw;
+  } 
+  div img{
+      width: 100%;
+      height: auto;
+  }
+  div .heading{
+      font-size: 2.2vw;
+  
+  }
+  div .time{
+      padding-top: 2.3vw;
+  font-size: 1.8vw;
+  
+  }
+  div .time2{
+  font-size: 1.82vw;
+  }
+  .header ul{
+ 
+      width: auto;
+      height: auto;
+    }
+}
